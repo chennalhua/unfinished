@@ -1,0 +1,103 @@
+.banner {
+    background: url(../img/index/banner.png) center no-repeat;
+    height: 580px;
+    background-size:cover;
+    position: relative;
+    .banner-info{
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50% , -50%);
+        h2{
+            font-size:20px;
+        }
+        span{
+            font-size:14px;
+        }
+        h4{
+            font-size:20px;
+        }
+        p{
+            font-size:16px;
+        }
+        @include media-breakpoint-up(md) { 
+            h2{
+                font-size:25px;
+            }
+            span{
+                font-size:20px;
+            }
+            h4{
+                font-size:20px;
+            }
+            p{
+                font-size:18px;
+            }
+        }
+    }
+}
+
+.theme-icon{
+    .theme-bg{
+        width: 120px;
+        height: 120px;
+        border-radius: 99em;
+        padding:20px;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    p{
+        font-size:18px;
+    }
+}
+.team{
+    background: url(../img/index/photo.jpg) center bottom no-repeat;
+    background-size:cover;
+}
+//new
+
+.primary-box{
+    height:150px;
+    @include media-breakpoint-up(lg) {
+        height:200px;
+    }
+}
+
+.pro-icon{
+    height: 120px;
+}
+
+.name{
+    font-size:38px;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-style:italic;
+    color:$primary;
+}
+
+.exhibition{
+    // background:url(../img/index/bg.png) no-repeat center;
+    // background-size:cover;
+    .coo-area{
+        position: relative;
+    }
+    a{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .5s;
+        &:hover{
+            background:rgba($info , .5);
+        }
+    }
+}
+
+.attention{
+    i{
+        font-size:28px;
+    }
+}

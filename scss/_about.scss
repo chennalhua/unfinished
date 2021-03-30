@@ -1,0 +1,45 @@
+.page-header{
+    background: url(../img/page-header.png) center center no-repeat;
+    background-size:cover;
+    // height:200px;
+}
+
+
+.over-size{
+    margin:-24px 0;
+}
+
+.color-box{
+    padding: 150px 0;
+}
+
+.box-pr::after{
+    @include media-breakpoint-up(lg){
+        content:'';
+        position: absolute;
+        background:$primary;
+        top: 0;
+        right:0;
+        width:350px;
+        height:100px;
+    }
+}
+
+.box-se::after{
+    @include media-breakpoint-up(lg){
+        content:'';
+        position: absolute;
+        background:$secondary;
+        bottom: 0;
+        left:0;
+        width:350px;
+        height:100px;
+        z-index: 1;
+    }
+}
+
+.idea-info{
+    @include media-breakpoint-up(lg){
+        padding-bottom:85px;
+    }
+}

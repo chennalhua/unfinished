@@ -1,0 +1,45 @@
+.group-header{
+    select{
+        border-radius: 5px;
+    }
+}
+.group-list{
+    .group-card{
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .g-card-img{
+        overflow: hidden;
+        img{
+            transition: all .3s;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+    .group-name{
+        border-bottom: 3px solid $secondary;
+        padding-bottom: 4px;
+        font-size: 23px;
+    }
+    .group-type{
+        font-size:20px;
+        padding:10px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        top:-10px;
+        left:0;
+    }
+    .group-type-name{
+        font-size:16px;
+        padding:5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        bottom:-30px;
+        left:0;
+    }
+}
+
+.name-tag{
+    width:150px;
+    bottom:10px;
+}

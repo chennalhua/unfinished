@@ -1,0 +1,76 @@
+a:hover{
+    text-decoration: none;
+}
+
+.bg-g{
+    // background:linear-gradient(left top, #AED2BE , #248ABD);
+    background:linear-gradient(left top, #8db6a0 , #248ABD);
+    opacity: .8;
+}
+.bg-g-1{
+    // background:linear-gradient(left top, #AED2BE , #248ABD);
+    background:linear-gradient(left top, #8db6a0 , #248ABD);
+}
+
+.logo{
+    background: url(../img/logo-pirmary.png) no-repeat center ;
+    width: 250px;
+    padding:15px 0;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+// nav , footer
+.nav-link{
+    color:$light;
+    transition: all .3s;
+    &:hover{
+        background: $secondary;
+        color:$light;
+    }
+}
+
+// nav 選單
+nav{
+    .navbar-toggler-icon{
+        background: url(../img/icon/icon-menu.svg) no-repeat;
+        background-size: 100%;
+    }
+}
+
+.mobile-nav{
+    ul{
+        background:$info;
+        li{
+            display: block;
+            width: 100%;
+            border-top:1px solid $light;
+            font-size: 20px;
+            padding: 8px 0;
+            &:hover{
+                background:$secondary;
+            } 
+        }
+    }
+}
+
+
+//footer
+footer{
+    .footer-info{
+        border-bottom:1px solid $light;
+    }
+    .contact{
+        font-size: 36px;
+        @include size-md(){
+            font-size:24px;
+            img{
+                width:20px;
+            }
+        }
+        @include size-sm{
+            font-size:16px;
+        }
+    }
+}
