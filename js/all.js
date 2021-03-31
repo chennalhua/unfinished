@@ -176,7 +176,7 @@ function render(){
     let str="";
     groupData.forEach(function(item){
         let content=`<li class="col-md-6 col-lg-4 mb-5 text-justify" data-aos="zoom-in" data-aos-easing="linear"
-        data-aos-duration="400" data-aos-offset="350">
+        data-aos-duration="300" data-aos-offset="350">
         <div class="group-card">
             <div class="g-card-header position-relative text-light" >
                 <div class="g-card-img">
@@ -213,7 +213,7 @@ function filterBox(){
             if(e.target.value == item.type){
                 count +=1;
                 str2 +=`<li class="col-md-6 col-lg-4 mb-5 text-justify" data-aos="zoom-in" data-aos-easing="linear"
-                data-aos-duration="400" data-aos-offset="350">
+                data-aos-duration="300" data-aos-offset="350">
 <div class="group-card">
             <div class="g-card-header position-relative text-light" >
                 <div class="g-card-img">

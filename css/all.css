@@ -11133,7 +11133,7 @@ a.text-light-brown:hover, a.text-light-brown:focus {
   }
 }
 
-body {
+body, html {
   overflow-x: hidden;
 }
 
