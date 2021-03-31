@@ -13,10 +13,10 @@ let linkData = [
         'name':'展場資訊',
         'link':'exhibinfo.html'
     },
-    {
-        'name':'獲獎資訊',
-        'link':'awardedinfo.html'
-    },
+    // {
+    //     'name':'獲獎資訊',
+    //     'link':'awardedinfo.html'
+    // },
     {
         'name':'粉絲專頁',
         'link':'https://www.facebook.com/wzu.unfinished'
@@ -175,8 +175,7 @@ const searchNum = document.querySelector('.search-num');
 function render(){
     let str="";
     groupData.forEach(function(item){
-        let content=`<li class="col-md-6 col-lg-4 mb-5 text-justify" data-aos="zoom-in" data-aos-easing="linear"
-        data-aos-duration="300" data-aos-offset="350">
+        let content=`<li class="col-md-6 col-lg-4 mb-5 text-justify">
         <div class="group-card">
             <div class="g-card-header position-relative text-light" >
                 <div class="g-card-img">
@@ -212,8 +211,7 @@ function filterBox(){
         groupData.forEach(function (item){
             if(e.target.value == item.type){
                 count +=1;
-                str2 +=`<li class="col-md-6 col-lg-4 mb-5 text-justify" data-aos="zoom-in" data-aos-easing="linear"
-                data-aos-duration="300" data-aos-offset="350">
+                str2 +=`<li class="col-md-6 col-lg-4 mb-5 text-justify">
 <div class="group-card">
             <div class="g-card-header position-relative text-light" >
                 <div class="g-card-img">
