@@ -16,6 +16,7 @@
     <meta property="og:type" content="website">
     <!--icon-->
     <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
@@ -46,7 +47,7 @@
 <header class="page-header text-light m-0">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center py-5">
+            <div class="col-12 text-center py-5" data-aos="fade-down">
                 <h2 class="pb-3">關於我們</h2>
                 <p>本次展出的作品皆為本系學生獨一無二的「藝」術創作，我們希望觀賞者在「遊」覽我們作品同時，能意猶未盡並回味無窮</p>
             </div>
@@ -58,11 +59,13 @@
 <!-- 主題 -->
 <section class="container-fluid py-3 py-lg-5 box-pr position-relative">
     <div class="row">
-        <div class="col-12  col-lg-5 img-box d-block d-flex justify-content-center">
+        <div class="col-12  col-lg-5 img-box d-block d-flex justify-content-center" data-aos="fade-right" data-aos-easing="linear"
+        data-aos-duration="500">
             <img src="img/logo-i-11.png" class="d-none d-lg-block img-fluid" style="max-width:100%; height:auto; display:block;">
             <img src="img/logo200.png" class="d-block d-lg-none img-fluid" style="max-width:100%; height:auto; display:block;">
         </div>
-        <div class="col-12  col-lg-7  py-4">
+        <div class="col-12  col-lg-7  py-4" data-aos="fade-left" data-aos-easing="linear"
+        data-aos-duration="500">
             <h3 class="display-4 display-lg-3 px-4 pb-3 text-center text-lg-left text-info">“ 主題 ”</h3>
             <div class="col-12 text-info text-justify">
                 <!-- <h4 class="text-center m-0 pt-4">藝遊未盡 <br> UNFINISHED</h4> -->
@@ -79,7 +82,8 @@
 <section class="container-fluid bg-g">
     <div class="row py-5 text-light d-flex justify-content-center align-items-center">
         <div class="col-8" style="padding:25px 0;">
-            <p style="line-height:30px;" class="px-lg-4 text-center">
+            <p style="line-height:30px;" class="px-lg-4 text-center" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="500">
                 <em style="font-size:20px;">「藝遊未盡 UNFINISHED」</em>＝ 意猶未盡，讓大家在看到展出的作品時，能感到非常的意想不到也感到意猶未盡，每看一次就像發現新大陸般，想一看再看</p>
         </div>
     </div>
@@ -89,11 +93,12 @@
 <!-- 理念 -->
 <section class="container-fluid box-se position-relative">
     <div class="row flex-row-reverse">
-        <div class="col-12 col-lg-5 img-box d-block d-flex justify-content-center p-0" style="background: url(img/about/about-1.jpg) center center no-repeat; background-size: cover;">
-            <!-- <img src="img/about/about-1.jpg" class="d-none d-md-block" style="max-width:100%;"> -->
+        <div class="col-12 col-lg-5 img-box d-block d-flex justify-content-center p-0" style="background: url(img/about/about-1.jpg) center center no-repeat; background-size: cover;" data-aos="fade-left" data-aos-easing="linear"
+        data-aos-duration="500" data-aos-offset="300">
             <img src="img/about/about-mob.jpg" class="d-block d-lg-none img-fluid">
         </div>
-        <div class="col-12 col-lg-7  py-4">
+        <div class="col-12 col-lg-7  py-4" data-aos="fade-right" data-aos-easing="linear"
+        data-aos-duration="500" data-aos-offset="300">
             <h3 class="display-4 display-lg-3 px-4 pb-3 text-center text-lg-left">“ 策展理念 ”</h3>
             <div class="col-12">
                 <div class="text-justify idea-info">
@@ -131,6 +136,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> 
 <script src="https://kit.fontawesome.com/171768a726.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="js/gotop.js"></script>  
 <script src="js/all.js"></script>  
 </body>

@@ -16,6 +16,7 @@
     <meta property="og:type" content="website">
     <!--icon-->
     <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
@@ -46,7 +47,7 @@
 <header class="page-header text-light m-0">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center py-5">
+            <div class="col-12 text-center py-5" data-aos="fade-down">
                 <h2 class="pb-3">展場資訊</h2>
                 <!-- <p>校外展：放視大賞(高雄展覽館)<br>2021/05/07(三)～2021/05/09(五)</p> -->
             </div>
@@ -58,14 +59,16 @@
 <!-- 資訊 -->
 <section class="container-fluid pb-5">
     <div class="row mb-5">
-        <div class="col-12 col-lg-5 text-center d-flex flex-column justify-content-center">
+        <div class="col-12 col-lg-5 text-center d-flex flex-column justify-content-center" data-aos="fade-right" data-aos-easing="linear"
+        data-aos-duration="500">
             <div class="mb-4 py-4">
                 <p>校內展展場相簿</p>
                 <h2 class="font-weight-light text-secondary text-center">文藻外語大學<br>至善樓1樓(藝術迴廊)</h2>
                 <h5 class="font-weight-light text-secondary">2021/03/09(二)～2021/03/12(五)</h5>
             </div>
         </div>
-        <div class="col-12 col-lg-7 p-0">
+        <div class="col-12 col-lg-7 p-0" data-aos="fade-left" data-aos-easing="linear"
+        data-aos-duration="500"> 
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -103,15 +106,18 @@
               </div>
         </div>
     </div>
-    <div class="row bg-g py-5"></div>
+    <div class="row bg-g py-5" data-aos="fade-down" data-aos-easing="linear"
+    data-aos-duration="500"></div>
     <div class="row mt-4">
         <div class="col-12 text-center">
-            <div class="mb-4">
+            <div class="mb-4" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="500">
                 <p>校外展展場地圖</p>
                 <h2 class="font-weight-light text-secondary text-center">放視大賞(高雄展覽館)</h2>
                 <h5 class="font-weight-light text-secondary">2021/05/07(三)～2021/05/09(五)</h5>
             </div>
-            <img src="img/map.jpg" alt="展場地圖" class="img-fluid">
+            <img src="img/map.jpg" alt="展場地圖" class="img-fluid" data-aos="fade-right" data-aos-easing="linear"
+            data-aos-duration="500">
         </div>
     </div>
 </section>
@@ -142,6 +148,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> 
 <script src="https://kit.fontawesome.com/171768a726.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="js/gotop.js"></script>  
 <script src="js/all.js"></script>  
 </body>

@@ -11133,6 +11133,10 @@ a.text-light-brown:hover, a.text-light-brown:focus {
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .bg-cover {
   background-size: cover;
 }
