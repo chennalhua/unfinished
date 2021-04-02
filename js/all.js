@@ -25,6 +25,7 @@ let linkData = [
 
 const navbarNav = document.querySelector('.navbar-nav');
 const mobileNav = document.querySelector('.mobile');
+const typeBtn = document.querySelector('.type-btn');
 
 function navlinkBox(){
     let str = '';
@@ -235,5 +236,4 @@ function filterBox(){
     })
 }
 filterBox();
-
 
