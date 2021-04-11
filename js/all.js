@@ -110,7 +110,7 @@ let groupData = [
         type:'遊戲類',
         typeName:'行動遊戲',
         name:'寵心開始',
-        des:'本團隊擬開發的Android手機遊戲，主要是娛樂休閒的2D AVG狗狗冒險遊戲。整體畫面是以pixel 像素風格呈現。可愛逗趣的小狗狗在路上跑，跳過重重障礙物...',
+        des:'本團隊擬開發的 Android手機遊戲，主要是娛樂休閒的2D AVG 狗狗冒險遊戲。美術風格為 Pixel像素風格，希望透過Pixel風格讓玩家們在遊玩的時候，有種重新回...',
         pageUrl:'g8.html'
     },
     {
