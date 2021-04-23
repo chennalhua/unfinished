@@ -81,8 +81,8 @@ let groupData = [
     },
     {
         imgUrl:'img/group/g5.jpg',
-        type:'平面類',
-        typeName:'傳達設計組',
+        type:'跨領域類',
+        typeName:'跨領域',
         name:'Hē La',
         des:'合作酒吧的店名「Girar」在西班牙文裡有旋轉之意，意指客人在酒吧飲酒作樂，酒酣耳熱間微醺的氣氛讓人感到旋轉的氛圍。而西文發音類似英文發音的「Hē La」...',
         pageUrl:'g5.html'
