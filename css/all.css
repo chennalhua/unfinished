@@ -11135,6 +11135,7 @@ a.text-light-brown:hover, a.text-light-brown:focus {
 
 body, html {
   overflow-x: hidden;
+  font-family: "Microsoft JhengHei";
 }
 
 .bg-cover {
